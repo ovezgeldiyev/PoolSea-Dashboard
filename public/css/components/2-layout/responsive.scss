@@ -1,0 +1,635 @@
+// 1700px
+@include xxxxxlg-xxxxxxlg {
+}
+
+// 1450px
+@include xxxxlg-xxxxxlg {
+    h1 {
+        font-size: 90px;
+        line-height: 105px;
+
+        &.sm {
+            font-size: 80px;
+            line-height: 88px;
+        }
+    }
+
+    h2 {
+        font-size: 70px;
+        line-height: 78px;
+    }
+
+    h3 {
+        font-size: 50px;
+        line-height: 58px;
+    }
+
+    h4 {
+        font-size: 42px;
+        line-height: 49px;
+
+        &.sm {
+            font-size: 32px;
+            line-height: 40px;
+        }
+    }
+
+    h5 {
+        font-size: 25px;
+        line-height: 32px;
+
+        &.sm {
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+
+    p {
+        &.extra {
+            font-size: 26px;
+            line-height: 36px;
+        }
+    }
+
+}
+
+// 1380px
+@include xxxlg-xxxxlg {
+    h1 {
+        font-size: 80px;
+        line-height: 92px;
+
+        &.sm {
+            font-size: 75px;
+            line-height: 84px;
+        }
+    }
+
+    h2 {
+        font-size: 60px;
+        line-height: 68px;
+    }
+
+    h3 {
+        font-size: 45px;
+        line-height: 52px;
+    }
+
+    h4 {
+        font-size: 35px;
+        line-height: 38px;
+
+        &.sm {
+            font-size: 28px;
+            line-height: 34px;
+        }
+    }
+
+    h5 {
+        font-size: 22px;
+        line-height: 28px;
+
+        &.sm {
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+
+    .main {
+        padding-top: 180px;
+    }
+
+    @include dash-xxxlg-xxxxlg;
+
+}
+
+// 1250px
+@include xlg-xxlg-extra {
+
+}
+
+// 1180px
+@include xlg-xxlg {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    .auto__container {
+        padding: 0 30px;
+    }
+
+    h1 {
+        font-size: 70px;
+        line-height: 82px;
+
+        &.sm {
+            font-size: 65px;
+            line-height: 72px;
+        }
+    }
+
+    h2 {
+        font-size: 52px;
+        line-height: 62px;
+    }
+
+    h3 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    h4 {
+        font-size: 30px;
+        line-height: 34px;
+
+        &.sm {
+            font-size: 24px;
+            line-height: 30px;
+        }
+    }
+
+    p {
+        &.extra {
+            font-size: 23px;
+            line-height: 34px;
+        }
+
+        &.big {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        &.sm {
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+
+    .main {
+        padding-top: 150px;
+
+        &__note {
+            top: 90px;
+        }
+    }
+
+    @include nav-xlg-xxlg;
+    @include dash-xlg-xxlg;
+    @include sidebar-xlg-xxlg;
+
+}
+
+// 1024px
+@include lg-xlg {
+
+
+    h1 {
+        font-size: 60px;
+        line-height: 72px;
+
+        &.sm {
+            font-size: 55px;
+            line-height: 63px;
+        }
+    }
+
+    h2 {
+        font-size: 45px;
+        line-height: 52px;
+    }
+
+    h3 {
+        font-size: 35px;
+        line-height: 42px;
+    }
+
+    h4 {
+        font-size: 28px;
+        line-height: 32px;
+
+        &.sm {
+            font-size: 22px;
+            line-height: 28px;
+        }
+    }
+
+    h5 {
+        font-size: 20px;
+        line-height: 25px;
+
+        &.extra {
+            font-size: 20px;
+            line-height: 26px;
+        }
+
+        &.sm {
+            font-size: 16px;
+            line-height: 18px;
+        }
+    }
+
+    p {
+        &.extra {
+            font-size: 20px;
+            line-height: 27px;
+        }
+
+    }
+
+    .main {
+        padding-top: 110px;
+
+        &__note {
+            width: calc(100% - 60px);
+
+            &-outer {
+                margin-bottom: 150px;
+            }
+        }
+    }
+
+    .swiperBtn {
+        width: 42px;
+        height: 42px;
+
+        &::after {
+            font-size: 14px;
+            line-height: 14px;
+        }
+    }
+
+    .check {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+}
+
+// 930px
+@include md-lg {
+    h2 {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    h5 {
+        &.extra {
+            font-size: 18px;
+            line-height: 24px;
+        }
+
+        &.sm {
+            font-size: 16px;
+            line-height: 18px;
+        }
+    }
+
+    h6 {
+
+        &.sm {
+            font-size: 16px;
+            line-height: 18px;
+        }
+    }
+
+    p {
+        &.big {
+            font-size: 15px;
+            line-height: 19px;
+        }
+
+    }
+
+    .circle {
+        width: 550px;
+        height: 550px;
+    }
+
+    .main {
+        &__note {
+            padding: 20px 70px 20px 20px;
+
+            &-outer {}
+
+            &-icon {
+                margin-right: 18px;
+            }
+
+            span {
+                top: 24px;
+                right: 24px;
+            }
+        }
+    }
+
+    @include dash-md-lg;
+
+}
+
+// 840px
+@include md-lg-extra {
+
+}
+
+// 750px
+@include sm-md {
+    html[data-theme |=dark] {
+        --bgColor: #06070A;
+    }
+
+    .auto__container {
+        padding: 0 20px;
+    }
+
+    h1 {
+        font-size: 55px;
+        line-height: 64px;
+
+        &.sm {
+            font-size: 50px;
+            line-height: 58px;
+        }
+    }
+
+    h2 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    h3 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    h4 {
+        font-size: 24px;
+        line-height: 28px;
+
+        &.sm {
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+
+    .main {
+        &__bg {
+            height: 10%;
+        }
+
+        &__note {
+            width: calc(100% - 40px);
+            padding: 20px 60px 20px 20px;
+
+            p {
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+        &.sm {
+            padding: 0;
+        }
+    }
+
+    @include dash-sm-md;
+    @include sidebar-sm-md;
+
+}
+
+// 650px
+@include sm-md-extra {
+
+}
+
+// 540px
+@include xsm-sm {
+    h1 {
+        font-size: 45px;
+        line-height: 52px;
+
+        &.sm {
+            font-size: 38px;
+            line-height: 45px;
+        }
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    h4 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    h5 {
+        &.extra {
+            font-size: 16px;
+            line-height: 19px;
+        }
+
+        &.sm {
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+
+    p {
+        &.extra {
+            font-size: 18px;
+            line-height: 28px;
+        }
+
+        &.sm {
+            font-size: 15px;
+            line-height: 19px;
+        }
+    }
+
+    .swiperBtn {
+        width: 36px;
+        height: 36px;
+
+        &::after {
+            font-size: 12px;
+            line-height: 12px;
+        }
+    }
+
+    .circle {
+        display: none;
+        width: 320px;
+        height: 320px;
+    }
+
+    .main {
+        &__bg {
+            height: 7%;
+            display: none;
+        }
+
+        &__note {
+            padding: 12px 40px 12px 12px;
+            top: 76px;
+
+            &-outer {
+                margin-bottom: 110px;
+            }
+
+            &-icon {
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+                margin-top: 4px;
+            }
+
+            span {
+                top: 18px;
+                right: 18px;
+                width: 11px;
+                height: 11px;
+
+            }
+
+            p {
+                font-size: 12px;
+                line-height: 18px;
+                width: calc(100% - 35px);
+            }
+        }
+    }
+
+    .check {
+        span {
+            font-size: 12px;
+            line-height: 18px;
+            width: 380px;
+            padding: 8px 10px;
+        }
+    }
+
+    @include nav-xsm-sm;
+    @include dash-xsm-sm;
+    @include stake-xsm-sm;
+
+}
+
+// 440px
+@include xxsm-xsm {
+    h1 {
+        font-size: 40px;
+        line-height: 47px;
+
+        &.sm {
+            font-size: 34px;
+            line-height: 42px;
+        }
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    h4 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    h5 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    h6 {
+
+        &.sm {
+            font-size: 13px;
+            line-height: 15px;
+        }
+    }
+    p {
+        &.extra {
+            font-size: 15px;
+            line-height: 19px;
+        }
+    }
+    .main {
+        padding-top: 105px;
+
+        &__note {
+            top: 65px;
+
+            p {
+                font-size: 10px;
+                line-height: 14px;
+            }
+        }
+    }
+
+    @include nav-xxsm-xsm;
+    @include dash-xxsm-xsm;
+    @include stake-xxsm-xsm;
+    @include swap-xxsm-xsm;
+
+
+}
+
+// 390px
+@include xxxsm-xxsm {
+
+    .main {
+        &__note {
+            width: calc(100% - 30px);
+
+        }
+    }
+
+    .check {
+        span {
+            width: 240px;
+            font-size: 11px;
+            line-height: 14px;
+
+        }
+    }
+
+    @include dash-xxxsm-xxsm;
+
+}
+
+// 370px
+@include xxxxsm-xxxsm {
+    .main {
+        &__note {
+            padding: 10px 34px 10px 10px;
+            border-radius: 6px;
+
+            &-outer {
+                margin-bottom: 90px;
+            }
+
+            &-icon {
+                margin-top: 2px;
+                width: 16px;
+                height: 16px;
+                margin-right: 8px;
+            }
+
+            span {
+                top: 12px;
+                right: 12px;
+                width: 10px;
+                height: 10px;
+            }
+
+            p {
+                font-size: 9px;
+                line-height: 11px;
+            }
+        }
+    }
+
+    @include nav-xxxxsm-xxxsm;
+
+}
